@@ -47,6 +47,8 @@ html {
     --body-size: clamp(0.75rem, 1.5vw, 1.125rem);
     --small-size: clamp(0.65rem, 1vw, 0.875rem);
 
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
     --slide-padding: clamp(1rem, 4vw, 4rem);
     --content-gap: clamp(0.5rem, 2vw, 2rem);
     --element-gap: clamp(0.25rem, 1vw, 1rem);
