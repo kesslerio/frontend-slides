@@ -1,0 +1,27 @@
+name: frontend-slides
+summary: Zero-dependency HTML slide generation and PPT-to-web conversion with strict viewport-fit guarantees.
+description: >-
+  Discoverability metadata for frontend-slides. Creates animation-rich, browser-native
+  presentations from scratch or from PPT/PPTX while enforcing non-negotiable viewport
+  fitting and zero-dependency output defaults.
+aliases:
+  - frontend-slides
+  - frontend slides
+  - html slides
+  - ppt to html slides
+  - presentation generator
+keywords:
+  - frontend
+  - presentation
+  - slides
+  - html
+  - zero dependency
+  - viewport fitting
+  - pptx conversion
+  - style discovery
+category: frontend
+layer: workflow
+notes:
+  - Default output is a single self-contained HTML file with inline CSS and JS.
+  - Every slide must fit 100vh/100dvh with no in-slide scroll.
+  - Use strict mode for preview-led style discovery; use fast mode for direct preset generation.
