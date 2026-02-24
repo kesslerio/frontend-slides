@@ -8,6 +8,11 @@ description: Create stunning, animation-rich HTML presentations from scratch or 
 ## Mission
 Create production-quality, animation-rich HTML presentations that run directly in the browser with zero build tooling.
 
+## Legacy Phrase Compatibility
+- **Show, don't tell**: prefer visual exploration with preview choices over abstract style questionnaires.
+- **No AI slop defaults**: avoid generic templates and clichéd aesthetics (including purple-on-white default looks).
+- **No build tools by default**: generate single-file HTML with inline CSS/JS; do not require npm or bundlers unless explicitly requested.
+
 ## When To Use
 - Build a new slide deck from notes, outline, or raw text.
 - Convert `.ppt`/`.pptx` into a web slideshow with preserved content and assets.
