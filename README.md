@@ -39,6 +39,22 @@ Then use it by typing `/frontend-slides` in Claude Code.
 
 ## Usage
 
+### Mode Snippets
+
+**Strict mode (default, preview-led):**
+
+```text
+/frontend-slides
+> "Use strict mode. Create a 12-slide startup pitch deck and show me 3 style previews first."
+```
+
+**Fast mode (direct preset):**
+
+```text
+/frontend-slides
+> "Use fast mode with Bold Signal. Build an 8-slide product launch deck now."
+```
+
 ### Create a New Presentation
 
 ```
@@ -140,6 +156,8 @@ This skill was born from the belief that:
 | File | Purpose |
 |------|---------|
 | `SKILL.md` | Main skill instructions for Claude Code |
+| `references/` | Detailed viewport, CSS, presets, PPT conversion, and QA docs |
+| `agents/openai.yaml` | Discoverability metadata |
 | `STYLE_PRESETS.md` | Reference file with 10 curated visual styles |
 
 ## Requirements
