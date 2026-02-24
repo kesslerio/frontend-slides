@@ -9,7 +9,7 @@ Production-safe snippets and pattern intentions.
 .reveal {
   opacity: 0;
   transform: translateY(30px);
-  transition: opacity 0.6s var(--ease-out-expo), transform 0.6s var(--ease-out-expo);
+  transition: opacity 0.6s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1)), transform 0.6s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
 }
 .slide.visible .reveal {
   opacity: 1;
@@ -20,21 +20,21 @@ Production-safe snippets and pattern intentions.
 .reveal-scale {
   opacity: 0;
   transform: scale(0.92);
-  transition: opacity 0.6s, transform 0.6s var(--ease-out-expo);
+  transition: opacity 0.6s, transform 0.6s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
 }
 
 /* Slide From Left */
 .reveal-left {
   opacity: 0;
   transform: translateX(-40px);
-  transition: opacity 0.6s, transform 0.6s var(--ease-out-expo);
+  transition: opacity 0.6s, transform 0.6s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
 }
 
 /* Blur In */
 .reveal-blur {
   opacity: 0;
   filter: blur(10px);
-  transition: opacity 0.8s, filter 0.8s var(--ease-out-expo);
+  transition: opacity 0.8s, filter 0.8s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
 }
 ```
 
