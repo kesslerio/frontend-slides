@@ -60,5 +60,9 @@ Create production-quality, animation-rich HTML presentations that run directly i
 - Preset catalog, mood mapping, anti-slop style guardrails: [references/design-presets.md](references/design-presets.md)
 - PPT/PPTX extraction and conversion workflow: [references/ppt-conversion.md](references/ppt-conversion.md)
 - Preflight and delivery QA gates: [references/checklist.md](references/checklist.md)
+- Effect-to-feeling creative mapping: [references/effect-feeling-map.md](references/effect-feeling-map.md)
+- Animation implementation snippets: [references/animation-patterns.md](references/animation-patterns.md)
+- Troubleshooting playbook: [references/troubleshooting.md](references/troubleshooting.md)
+- Related skills and handoff cues: [references/related-skills.md](references/related-skills.md)
 
 Apply non-negotiables first, then load routed references as needed for the active mode.

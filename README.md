@@ -160,7 +160,7 @@ This skill was born from the belief that:
 | File | Purpose |
 |------|---------|
 | `SKILL.md` | Main skill instructions for Claude Code |
-| `references/` | Detailed viewport, CSS, presets, PPT conversion, and QA docs |
+| `references/` | Detailed viewport, CSS, presets, PPT conversion, QA, playbook maps, and troubleshooting docs |
 | `agents/openai.yaml` | Discoverability metadata |
 | `STYLE_PRESETS.md` | Reference file with 10 curated visual styles |
 
