@@ -18,24 +18,28 @@ A Claude Code skill for creating stunning, animation-rich HTML presentations —
 
 ### For Claude Code Users
 
-Copy the skill files to your Claude Code skills directory:
+Copy the **entire skill folder** (not just `SKILL.md`) so routed references are available:
 
 ```bash
 # Create the skill directory
 mkdir -p ~/.claude/skills/frontend-slides
 
-# Copy the files (or download from this repo)
+# Copy everything required by the skill
 cp SKILL.md ~/.claude/skills/frontend-slides/
 cp STYLE_PRESETS.md ~/.claude/skills/frontend-slides/
+cp -R references ~/.claude/skills/frontend-slides/
+cp -R agents ~/.claude/skills/frontend-slides/  # optional metadata
 ```
 
 Then use it by typing `/frontend-slides` in Claude Code.
 
 ### Manual Download
 
-1. Download `SKILL.md` and `STYLE_PRESETS.md` from this repo
+1. Download `SKILL.md`, `STYLE_PRESETS.md`, and the full `references/` folder (plus optional `agents/`)
 2. Place them in `~/.claude/skills/frontend-slides/`
 3. Restart Claude Code
+
+If `references/` is missing, critical viewport/CSS/conversion guidance will be unavailable.
 
 ## Usage
 
